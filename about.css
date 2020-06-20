@@ -1,0 +1,175 @@
+body{
+  margin:0px;
+  background-color: #282828;
+  color: white;
+  spacing: 1.5em;
+}
+
+.container{
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
+
+.navigator{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 25px;
+  border: 2px black solid;
+}
+
+.left{
+  display: flex;
+}
+
+.navigator > .left > div{
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.linkwrap{
+  height: 22px;
+  border-bottom:1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.linkwrap a{
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.linkwrap:hover{
+  border-bottom: 1px solid black;
+}
+
+.linkwrap a:hover{
+  color: black
+}
+.name{
+  color:black;
+}
+
+.main-heading{
+  text-decoration: underline overline;
+  text-decoration-color: white;
+  text-align: center;
+}
+
+
+.bio{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.photo{
+  margin-left: 30px;
+  float: left;
+  width: 25%;
+  text-align: center;
+  border: 2px black solid;
+  background-color: white;
+  color: black;
+  padding-top: 5px;
+}
+
+.text-me{
+  width: 55%;
+  float:right;
+  padding-top: 30px;
+  margin-right: 50px;
+  margin-left: 10px;
+  padding-right: 150px;
+  padding-left:30px;
+
+  line-height: 1.6em;
+}
+
+.text-me h3{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.text-in{
+border: solid white;
+
+}
+.clr{
+clear: both;
+}
+/*
+.sidebar{
+
+  width : 20%;
+  margin: 35px;
+  padding : 20px;
+  background-color: white;
+  color: black;
+  border: 5px solid lightseagreen;
+}
+.sidebar h3{
+  text-align: center;
+}
+
+.sidebar input{
+display : block;
+margin : 20px;
+}
+
+.sidebar label{
+  display:block;
+  margin: 20px;
+}
+
+.sidebar button{
+  display: block;
+  margin: 20px;
+}
+
+
+.hii{
+  float: right;
+  width: 30%;
+} */
+
+
+
+.footer{
+  margin-top: 50px;
+  background-color: white;
+  display:flex;
+  justify-content: space-between;
+  padding: 25px;
+  border: 2px black solid;
+
+}
+
+.leftfooter{
+ color: black;
+ text-decoration: underline;
+ text-decoration-color:black;
+}
+
+.leftfooter:hover{
+ color:#8a8a8a;
+ text-decoration-color: black;
+}
+
+.rightfooter a{
+    color: black;
+    text-decoration: none;
+}
+
+.rightfooter{
+  height: 22px;
+  border-bottom:1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+
+.rightfooter a:hover{
+  color: #8a8a8a ;
+}
